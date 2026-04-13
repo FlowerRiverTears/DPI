@@ -1,0 +1,37 @@
+:root {
+  --primary: #7C6EFA;
+  --primary-light: #A69BFC;
+  --primary-dark: #5A4ED4;
+  --pink: #FFD6E8;
+  --mint: #B8F3FF;
+  --lemon: #FFF3B0;
+  --coral: #FF8A80;
+  --bg: #F5F0FF;
+  --card: #FFFFFF;
+  --text: #2D2A4A;
+  --text-light: #7A78A8;
+  --shadow: 0 8px 32px rgba(124, 110, 250, 0.15);
+  --shadow-sm: 0 4px 16px rgba(124, 110, 250, 0.1);
+  --radius: 20px;
+  --radius-sm: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
